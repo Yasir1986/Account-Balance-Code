@@ -1,0 +1,120 @@
+*{
+  background-color: lightcyan
+}
+.App-title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+/* .income1{
+  grid-area: income1;
+}
+.expense1{
+  grid-area: expense1;
+}
+.balance{
+  width: 100%;
+  grid-area: balance;
+  margin-top: 100px;
+} */
+.Main0{
+  width: 100vw;
+  margin: auto;
+}
+/* .Main{
+  display: grid;
+  grid-template-columns: 50% 50% 100%;
+  grid-template-areas: 
+  'income1 expense1'
+  'balance balance';
+  border: 1px solid black;
+  width: 80vw;
+  height: auto;
+  margin: 40px auto;
+} */
+h2{
+  margin-left: 100px;
+  text-decoration: underline;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
+span{
+  padding: 10px;
+  line-height: 25px;
+}
+.input1{
+  width: 250px;
+  height: 30px;
+  margin-right: 20px;  
+}
+.input2{
+  width: 150px;
+  height: 30px;
+}
+select{
+  height: 36px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.Btn{
+  height: 36px;
+  width: 50px;
+  margin-left: 20px;
+}
+ul{
+  list-style-type: upper-roman;
+}
+
+@media only screen and (min-width: 500px)  {
+  .income1{
+    grid-area: income1;
+  }
+  .expense1{
+    grid-area: expense1;
+  }
+  .balance{
+    width: 100%;
+    grid-area: balance;
+    margin-top: 100px;
+  }
+  .Main{
+    display: grid;
+    grid-template-columns: 50% 50% 100%;
+    grid-template-areas: 
+    'income1 expense1'
+    'balance balance';
+    border: 1px solid black;
+    width: 80vw;
+    height: auto;
+    margin: 40px auto;
+  }
+  }
+
+/* 
+@media only screen and (min-width: 500px)  {
+  .income1{
+    grid-area: income1;
+  }
+  .expense1{
+    grid-area: expense1;
+  }
+  .balance{
+    width: 100%;
+    grid-area: balance;
+    margin-top: 100px;
+  }
+  .Main{
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    grid-template-areas: 
+    'income1'
+    'expense1'
+    'balance';
+    border: 1px solid black;
+    width: 80vw;
+    height: auto;
+    margin: 40px auto;
+  }
+  } */
