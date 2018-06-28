@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Income from './Components/Income';
 import Expense from './Components/Expense';
 import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 
 class App extends Component {
@@ -117,6 +118,7 @@ if(hours < 10){
              bal = {bal}
             />
            
+           <Footer />
            
         </div>
     
