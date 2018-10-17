@@ -88,12 +88,6 @@ if(hours < 10){
  
       const bal = sum1 - sum2
 
-      // console.log(this.state.description)
-      // console.log(this.state.income);
-      // console.log(this.state.amount);
-      // console.log(this.state.accountType);
-      // console.log(this.state.amount);
-      // console.log(this.state.expense);
     return (
         <div className="Main0">
             <Header 
